@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Commently",
+  "version": "1.0",
+
+  "description": "Comment on any web page you like",
+  "homepage_url": "httpshttps://github.com/albingeorge/commently-service",
+  "icons": {
+    "48": "icons/logo-color.svg"
+  },
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/logo-color.svg",
+    "default_title": "Commently",
+    "default_popup": "popup/comment.html",
+    "browser_style": true
+  }
+}
