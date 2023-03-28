@@ -53,7 +53,6 @@ function getDbInstancePromise() {
     });
 
     return p;
-
 }
 
 function insertComment(db, urlValue, commentValue) {
@@ -99,11 +98,6 @@ function fetchComments(db, url) {
 
     // https://github.com/mdn/dom-examples/blob/bda3ad1e1ef5c9edf70530cc071bb255024a3aa8/indexeddb-examples/idbkeyrange/scripts/main.js#L156-L170
     request.onsuccess = (event) => {
-        // Do something with the request.result!
-        // console.log("Fetched results");
-        // console.log(request.result.url);
-        // console.log(event.target.result);
-
         var cursor = event.target.result;
         if (cursor) {
             commentText = cursor.value.comment;

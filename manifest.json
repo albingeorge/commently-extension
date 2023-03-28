@@ -18,6 +18,6 @@
     "default_icon": "icons/logo-color.svg",
     "default_title": "Commently",
     "default_popup": "popup/comment.html",
-    "browser_style": true
+    "browser_style": false
   }
 }
